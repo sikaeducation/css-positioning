@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+}
+
+.item {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+/* Appearance */
+.container {
+  margin: 36px;
+  border: 1px solid hsl(240, 50%, 20%);
+  height: 500px;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: hsl(240, 50%, 50%);
+}
